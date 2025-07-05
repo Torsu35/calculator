@@ -34,6 +34,9 @@ h3{
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 15px #2f312fbd;
+
+    
 
 }
 #screen{
@@ -41,6 +44,12 @@ h3{
     height: 100px;
     background-color: #000000;
     margin: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .button-container{
@@ -105,7 +114,15 @@ button{
     color: #00ff4c;
 }
 
-#equals:hover,
+#equals:hover{
+    background-color: #00ff4cce;
+}
+
 button:hover{
-    background-color: #97a0a0b4;
+    background-color: #97a0a018;
+}
+
+button:active,
+#equals:active{
+    transform: scale(0.85);
 }
