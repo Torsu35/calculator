@@ -4,7 +4,7 @@ This project is to build a simple calculator using HTML, CSS, and JavaScript. Th
 
 ## Preview
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](image/review.png.png)
 
 ## Features
 
